@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Skipper</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="" alt="" class="logo-icon"> YouTube Skipper
+            <span class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content"><p>Skip a certain amount of time in the beginning and/or ending of a YouTube video or playlist</p></div>
+    <div class="time">
+        <h5>Start Time:</h5>
+        <div class="start">
+            <label for="startMin">Minutes:</label>
+            <input class="minute" id="startMin" type="number" min="0" max="60" value="">
+            <label for="startSec">&nbsp;&nbsp;&nbsp;Seconds:</label>
+            <input class="second" id="startSec" type="number" min="0" max="60" value="">
+        </div>
+    </div>
+    <div class="time">
+        <h5>End Time:</h5>
+        <div class="end">
+            <label for="endMin">Minutes: </label>
+            <input class="minute" id="endMin" type="number" min="0" max="60" value="">
+            <label for="endSec">&nbsp;&nbsp;&nbsp; Seconds:</label>
+            <input class="second" id="endSec" type="number" min="0" max="60" value="">
+        </div>
+        <!-- make a choice for end time or time before end
+        ex. end at 12:23 or end 5 minutes before end -->
+    </div>
+    <div class="button">
+        <input class="sub" type="submit">
+    </div>
+
+    <div class="instructions">
+        <h4>Instructions:</h4>
+        <p></p>
+    </div>
+    
+
+</body>
+</html>
