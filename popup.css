@@ -3,12 +3,23 @@ html, body {
     font-size: 14px;
     margin: 0;
     min-height: 180px;
-    width: 384px;
+    width: 1000px;
     text-align: center;
-    /* delete */
-    border: solid 0.2px;
+    max-width: 1000px;
+  margin: auto;
+  background-color: rgb(211, 211, 211);
 }
-
+.box{
+    background-color: #fff;
+    padding-bottom: 20px;
+    width:499px;
+    height: 100%;
+    float:left;
+   
+}
+.left{
+    border-right:2px solid #a8a8a8;
+}
 h1 {
     font-family: 'Menlo', monospace;
     font-size: 22px;
@@ -23,21 +34,29 @@ h1 {
 }
 
 .version {
-    color: #444;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .modal-header {
     align-items: center;
+    height:50px;
+    line-height: 50px;
     border-bottom: 0.5px solid #dadada;
+    background-color:  rgb(226, 29, 29);
+    color: white;
 }
 
 .modal-content {
-    padding: 0 22px;
+    padding: 20px 50px;
 }
-
+.url{
+    padding: 40px 0;
+}
+.url>input{
+    width:300px;
+}
 .time {
-    width: 384px;
+    width: auto;
     height: 80px;
     /* background-color: aquamarine; */
     text-align: center;
@@ -56,14 +75,21 @@ h1 {
 }
 
 .time input:hover {
-    border-bottom: solid 2px rgb(255, 0, 0);
+    border-bottom: solid 2px black;
 }
 .instructions{
-    margin: 23px;
+    margin: 30px;
+    padding: 0 50px;
 }
 .instructions h4{
     font-weight: 400;
     text-align: left;
+}
+.instructions p{
+    text-align: left;
+}
+.left-instruct{
+    padding-top: 62px;
 }
 .button .sub{
     width:80px;
@@ -73,6 +99,7 @@ h1 {
     background-color: rgb(255, 35, 35);
     color: white;
     border-radius: 2px;
+    margin-top: 20px;
 }
 .button .sub:hover{
     cursor: pointer;
